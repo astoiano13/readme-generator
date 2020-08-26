@@ -4,14 +4,14 @@ var fs = require("fs");
 inquirer
   .prompt([
     {type:"input",
-    message: "What is your user name?",
+    message: "What is your username?",
     name: "username"
     },
 
     {
      
     },
-    
+
     {
       
     }

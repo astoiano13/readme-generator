@@ -1,17 +1,31 @@
-#Title
+https://img.shields.io/badge/License-MIT-Blue - automatic!
 
-#Description
+(#Title)
 
-#Table of Contents
+(#Description)
 
-#Installation
+(#Table of Contents)
 
-#Usage
+[Installation](#Installation)
 
-#License
+${data.installation}
 
-#Contributing
+[Usage](#Usage)
 
-#Tests
+${data.usage}
 
-#Questions
+[License](#License)
+
+${data.license}
+
+[Contributing](#Contributing)
+
+${data.contributing}
+
+[Tests](#Tests)
+
+${data.tests}
+
+[Questions](#Questions)
+
+${data.questions}

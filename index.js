@@ -8,13 +8,30 @@ inquirer
     name: "username"
     },
 
-    {
+    {type: "input",
+    message: "What is the title of your project?",
+    name: "title"
      
     },
 
-    {
+    {type: "input",
+    message: "What is a description of your project?",
+    name: "description"
       
-    }
+    },
+
+    {type: "input",
+
+    },
+
+    {type: "input",
+
+    },
+
+    {type: "input",
+
+    },
+
   ]).then(answers => {
       console.log(answers);
       

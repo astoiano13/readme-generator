@@ -2,9 +2,15 @@ https://img.shields.io/badge/License-MIT-Blue - automatic!
 
 (#Title)
 
+${data.title}
+
 (#Description)
 
+${data.description}
+
+
 (#Table of Contents)
+
 
 [Installation](#Installation)
 

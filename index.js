@@ -1,6 +1,6 @@
 var inquirer = require("inquirer");
 var fs = require("fs");
-// var generateMarkdown = require("generateMarkdown");
+var generateMarkdown = require("./utils/generateMarkdown")
 var path = require("path")
 
 

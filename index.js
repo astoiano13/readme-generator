@@ -1,5 +1,8 @@
 var inquirer = require("inquirer");
 var fs = require("fs");
+var generateMarkdown = require("generateMarkdown");
+var path = require("path")
+
 
 inquirer
   .prompt([
@@ -20,15 +23,22 @@ inquirer
       
     },
 
-    {type: "input",
+    {type: "confirm",
+    message: "Would you like to create an auto-generated Table of Contents?",
+    name: "Table of Contents"
+
+    },
+
+    {type: "checkbox",
+    message: "What do you want your project license to be?",
+    name: "license",
+    choices: ["APACHE 2.0", "BSD 3", "MIT", "GPL 3.0", "None"]
 
     },
 
     {type: "input",
-
-    },
-
-    {type: "input",
+    message: "Input your instructions for installation",
+    name: "npm i"
 
     },
 
@@ -37,7 +47,7 @@ inquirer
       
       let readme = "";
       
-      fs.writeFile("README.md", readme, err =>{
+      fs.writeFile("README.md", generateMarkdown(answers), err =>{
           if (err) {
               return console.log(err);
             }

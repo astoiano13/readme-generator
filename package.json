@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/astoiano13/readme-generator/issues"
   },
-  "homepage": "https://github.com/astoiano13/readme-generator#readme"
+  "homepage": "https://github.com/astoiano13/readme-generator#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^7.3.3",
+    "path": "^0.12.7"
+  }
 }
